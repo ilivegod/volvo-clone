@@ -7,7 +7,7 @@
 
 
 .header {
-    height: 120vh;
+    height: 90vh;
     width: 100%;
     background-image: url("photos/volvo.jpg");
     background-size: cover;
@@ -55,7 +55,7 @@ nav {
 
 .explore-volvo {
     width: 100%;
-    height: 110vh;
+    height: 90vh;
     padding: 10px 5%;
     position: relative;
 }
@@ -82,16 +82,18 @@ nav {
     height: 70vh;
     width: 100%;
     margin-top: 50px;
+    margin-left: -10px;
     /* padding: 10px 5%; */
 }
 
 .boxes {
     position: relative;
-    height: 100%;
+    height: 80%;
     width: 350px;
     border: 1px transparent;
-    margin: 0 17px;
+    margin: 0 18px;
     cursor: pointer;
+    /* margin-left: -5px; */
 }
 
 .boxes img {
@@ -128,14 +130,14 @@ nav {
     flex-direction: row;
     height: 70vh;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 
 
 .career-box {
     position: relative;
-    height: 85%;
+    height: 70%;
     width: 600px;
     border: 1px transparent;
     margin: 0 17px;
@@ -143,11 +145,19 @@ nav {
 
 .career-box2 {
     position: relative;
-    height: 60%;
+    height: 55%;
     width: 600px;
     border: 1px transparent;
     margin: 0 17px;
     cursor: pointer;
+}
+
+.career-box3 {
+    position: relative;
+    height: 55%;
+    width: 600px;
+    border: 1px transparent;
+    margin: 0 17px;
 }
 
 
@@ -230,7 +240,86 @@ nav {
 .footer h2 {
     color: #e1dfdd;
     font-size: 12px;
-
-    
 }
+
+@media screen and (max-width:480px) {
+    .header {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: 1fr auto;
+        width: 100%;
+        padding: 18px 15px 0 24px;
+        height: 720px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .logo img{
+        width: 100px;
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+
+    .header-content {
+        
+    }
+
+   
+}
+
+
+/* --------------- volvo cars page -------------- */
     
+
+.header-cars {
+    height: 80vh;
+    width: 100%;
+    background-image: url("https://www.volvocars.com/images/v/-/media/applications/locationselector/STE_1920x1080.jpg?w=1920");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+.header-cars p{
+    font-family: VolvoBroadProDigital,Arial,sans-serif;
+    font-weight:bolder;
+    font-size:xx-large;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    top: 17%;
+}
+
+.cars-top {
+    height: 6vh;
+    width: 100%;
+    background-color: white;
+    color: #131313;
+}
+
+.cars-top p {
+    font-family: Volvo Broad, Arial Black, sans-serif;
+    font-weight:bolder;
+    font-size:larger;
+    margin-top: 1rem;
+    margin-left: 2rem ;
+}
+
+.cars-btn {
+    margin: 0 10px;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 12px;
+    display: inline-block;
+    /* font-size: 1rem;
+    font-weight: 400; */
+    letter-spacing: .2px;
+    line-height: 1.5;
+    position: relative;
+    top: 25%;
+    left: 40%;
+}
