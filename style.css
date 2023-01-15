@@ -269,11 +269,11 @@ nav {
 }
 
 
-/* --------------- volvo cars page -------------- */
+/* --------------- visit cars page -------------- */
     
 
 .header-cars {
-    height: 80vh;
+    height: 72vh;
     width: 100%;
     background-image: url("https://www.volvocars.com/images/v/-/media/applications/locationselector/STE_1920x1080.jpg?w=1920");
     background-size: cover;
@@ -293,7 +293,7 @@ nav {
     top: 17%;
 }
 
-.cars-top {
+.visit-top {
     height: 6vh;
     width: 100%;
     background-color: white;
@@ -322,4 +322,177 @@ nav {
     position: relative;
     top: 25%;
     left: 40%;
+    transition: .3s;
+}
+
+
+.cars-btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+.int-sites {
+    width: 100%;
+    height: 35vh;
+    background-color: white;
+    color: #131313;
+}
+
+.int-sites p {
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    position: relative;
+    top: 15%;
+}
+
+.int-sites a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .75rem;
+    padding: 0 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    color: #1c6bba;
+}
+
+
+.int-sites a:hover {
+    color: #131313;
+    cursor: pointer;
+}
+
+
+
+/* --------------- volvo cars page -------------- */
+
+
+
+.cars-top {
+    overflow: hidden;
+    /* position: fixed; */
+    display: flex;
+    height: 7vh;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    color: #131313;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cars-top ul {
+    display: flex;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.cars-top li {
+    list-style: none;
+    
+}
+
+.cars-top a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+
+.ex90 {
+    width: 100%;
+    height:70vh;
+    background-image: url("photos/volvocar.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+
+.ex90-text {
+    position: relative;
+    top: 20%;
+    left: 2%;
+}
+
+.ex90-text h2 {
+    font-size: 1rem;
+    letter-spacing: .5px;
+}
+
+.ex90-text p {
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+.ex90-btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: .9rem;
+    color: white;
+    background-color: black;
+    transition: .4s;
+}
+
+
+.ex90-btn:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+
+
+.recharge-text {
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+.recharge-models {
+    width: 100%;
+    height: 130vh;
+}
+
+
+.recharge-models h2 {
+    font-size: 2rem;
+    font-weight:600;
+}
+
+.recharge-models ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 31%;
+}
+
+.recharge-models li {
+    padding: 0 15px;
+    margin-top: 60px;
+}
+
+.recharge-models a {
+    text-decoration: none;
+    color: rgb(56, 55, 55);
 }
