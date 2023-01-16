@@ -470,11 +470,12 @@ nav {
 
 .recharge-models {
     width: 100%;
-    height: 130vh;
+    height: 25vh;
 }
 
 
 .recharge-models h2 {
+    margin-top: 5vh;
     font-size: 2rem;
     font-weight:600;
 }
@@ -495,4 +496,45 @@ nav {
 .recharge-models a {
     text-decoration: none;
     color: rgb(56, 55, 55);
+}
+
+
+
+.car-boxes {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    text-align: justify;
+    /* margin-left: 10px; */
+}
+
+.car-box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 23%;
+    height: 100%;
+    margin: 0 12px;
+    background-color: lightgray;
+}
+
+.car-box h2 {
+    color: grey;
+    font-size: 1rem;
+}
+
+.car-box p {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.car-box span {
+    color: grey;
+    font-weight: 200;
+    font-size: .7rem;
+}
+
+.carbox-text {
+    /* display: inline-block; */
 }
